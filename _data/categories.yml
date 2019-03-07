@@ -1,0 +1,34 @@
+- key: gj
+  name: Les Gilets Jaunes
+  description: La communauté des gilets jaunes
+  icon: fas fa-users
+
+- key: rp
+  name: Les Ronds-Points
+  description: La communauté gilets jaunes des ronds-points
+  icon: far fa-dot-circle
+
+- key: events
+  name: Les Evénements
+  description: Les différents programmes et événements des gilets jaunes
+  icon: far fa-calendar-alt
+
+- key: actions
+  name: Les Actions
+  description: Les opérations coup-de-poing des gilets jaunes
+  icon: fas fa-crosshairs
+
+- key: medics
+  name: Les Street Medics
+  description: Les volontaires soignants les gilets jaunes bléssés lors de manifestation
+  icon: fas fa-user-md
+
+- key: bikers
+  name: Les Motard-e-s
+  description: La communauté des motard-e-s gilets jaunes
+  icon: fas fa-motorcycle
+
+- key: women
+  name: Les Femmes
+  description: La communauté des femmes gilets jaunes
+  icon: fas fa-female

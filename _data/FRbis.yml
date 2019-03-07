@@ -1,0 +1,256 @@
+FR-ARA:
+  libelle: "Auvergne-Rhône-Alpes"
+  departements:
+    "01":
+      libelle: "Ain"
+    "03":
+      libelle: "Allier"
+    "07":
+      libelle: "Ardèche"
+    "15":
+      libelle: "Cantal"
+    "26":
+      libelle: "Drôme"
+    "38":
+      libelle: "Isère"
+    "42":
+      libelle: "Loire"
+    "43":
+      libelle: "Haute-Loire"
+    "63":
+      libelle: "Puy-de-Dôme"
+    "69":
+      libelle: "Rhône"
+    "73":
+      libelle: "Savoie"
+    "74":
+      libelle: "Haute-Savoie"
+FR-BFC:
+  libelle: "Bourgogne-Franche-Comté"
+  departements:
+    "21":
+      libelle: "Côte-d'Or"
+    "25":
+      libelle: "Doubs"
+    "39":
+      libelle: "Jura"
+    "58":
+      libelle: "Nièvre"
+    "70":
+      libelle: "Haute-Saône"
+    "71":
+      libelle: "Saône-et-Loire"
+    "89":
+      libelle: "Yonne"
+    "90":
+      libelle: "Territoire de Belfort"
+FR-BRE:
+  libelle: "Bretagne"
+  departements:
+    "22":
+      libelle: "Côtes-d’Armor"
+    "29":
+      libelle: "Finistère"
+    "35":
+      libelle: "Ille-et-Vilaine"
+    "56":
+      libelle: "Morbihan"
+FR-CVL:
+  libelle: "Centre-Val de Loire"
+  departements:
+    "18":
+      libelle: "Cher"
+    "28":
+      libelle: "Eure-et-Loir"
+    "36":
+      libelle: "Indre"
+    "37":
+      libelle: "Indre-et-Loire"
+    "41":
+      libelle: "Loir-et-Cher"
+    "45":
+      libelle: "Loiret"
+FR-COR:
+  libelle: "Corse"
+  departements:
+    "2B":
+      libelle: "Haute-Corse"
+    "2A":
+      libelle: "Corse-du-Sud"
+FR-GES:
+  libelle: "Grand Est"
+  departements:
+    "08":
+      libelle: "Ardennes"
+    "10":
+      libelle: "Aube"
+    "51":
+      libelle: "Marne"
+    "52":
+      libelle: "Haute-Marne"
+    "54":
+      libelle: "Meurthe-et-Moselle"
+    "55":
+      libelle: "Meuse"
+    "57":
+      libelle: "Moselle"
+    "67":
+      libelle: "Bas-Rhin"
+    "68":
+      libelle: "Haut-Rhin"
+    "88":
+      libelle: "Vosges"
+FR-HDF:
+  libelle: "Hauts-de-France"
+  departements:
+    "02":
+      libelle: "Aisne"
+    "59":
+      libelle: "Nord"
+    "60":
+      libelle: "Oise"
+    "62":
+      libelle: "Pas-de-Calais"
+    "80":
+      libelle: "Somme"
+FR-IDF:
+  libelle: "Ile-de-France"
+  departements:
+    "75":
+      libelle: "Paris"
+    "77":
+      libelle: "Seine-et-Marne"
+    "78":
+      libelle: "Yvelynes"
+    "91":
+      libelle: "Essonne"
+    "92":
+      libelle: "Hauts-de-Seine"
+    "93":
+      libelle: "Seine-Saint-Denis"
+    "94":
+      libelle: "Val-de-Marne"
+    "95":
+      libelle: "Val-d'Oise"
+FR-NOR:
+  libelle: "Normandie"
+  departements:
+    "14":
+      libelle: "Calvados"
+    "27":
+      libelle: "Eure"
+    "50":
+      libelle: "Manche"
+    "61":
+      libelle: "Orne"
+    "76":
+      libelle: "Seine-Maritime"
+FR-NAQ:
+  libelle: "Nouvelle-Aquitaine"
+  departements:
+    "16":
+      libelle: "Charente"
+    "17":
+      libelle: "Charente-Maritime"
+    "19":
+      libelle: "Corrèze"
+    "23":
+      libelle: "Creuse"
+    "24":
+      libelle: "Dordogne"
+    "33":
+      libelle: "Gironde"
+    "40":
+      libelle: "Landes"
+    "47":
+      libelle: "Lot-et-Garonne"
+    "64":
+      libelle: "Pyrénées-Atlantiques"
+    "79":
+      libelle: "Deux-Sèvres"
+    "86":
+      libelle: "Vienne"
+    "87":
+      libelle: "Haute-Vienne"
+FR-OCC:
+  libelle: "Occitanie"
+  departements:
+    "09":
+      libelle: "Ariège"
+    "11":
+      libelle: "Aude"
+    "12":
+      libelle: "Aveyron"
+    "30":
+      libelle: "Gard"
+    "31":
+      libelle: "Haute-Garonne"
+    "32":
+      libelle: "Gers"
+    "34":
+      libelle: "Hérault"
+    "46":
+      libelle: "Lot"
+    "48":
+      libelle: "Lozère"
+    "65":
+      libelle: "Hautes-Pyrénées"
+    "66":
+      libelle: "Pyrénées-Orientales"
+    "81":
+      libelle: "Tarn"
+    "82":
+      libelle: "Tarn-et-Garonne"
+FR-PDL:
+  libelle: "Pays de la Loire"
+  departements:
+    "44":
+      libelle: "Loire-Atlantique"
+    "49":
+      libelle: "Maine-et-Loire"
+    "53":
+      libelle: "Mayenne"
+    "72":
+      libelle: "Sarthe"
+    "85":
+      libelle: "Vendée"
+FR-PAC:
+  libelle: "Provence-Alpes-Côte d'Azur"
+  departements:
+    "04":
+      libelle: "Alpes-de-Haute-Provence"
+    "05":
+      libelle: "Hautes-Alpes"
+    "06":
+      libelle: "Alpes-Maritimes"
+    "13":
+      libelle: "Bouches-du-Rhône"
+    "83":
+      libelle: "Var"
+    "84":
+      libelle: "Vaucluse"
+FR-GP:
+  libelle: "DOM-TOM"
+  departements:
+    "971":
+      libelle: "Guadeloupe"
+FR-GF:
+  libelle: "DOM-TOM"
+  departements:
+    "973":
+      libelle: "Guyane"
+FR-MQ:
+  libelle: "DOM-TOM"
+  departements:
+    "972":
+      libelle: "Martinique"
+FR-RE:
+  libelle: "DOM-TOM"
+  departements:
+    "974":
+      libelle: "La Réunion"
+FR-YT:
+  libelle: "DOM-TOM"
+  departements:
+    "976":
+      libelle: "Mayotte"

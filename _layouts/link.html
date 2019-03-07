@@ -1,0 +1,9 @@
+<a href="{{ content }}" target="_blank">
+	{% if post.thumbnail %}
+    {% assign thumbnail = post.thumbnail %}
+    {% else %}
+    {% assign thumbnail = "/images/default.jpg" %}
+    {% endif %}
+    <img src="{{ thumbnail | replace : '.', '.square.' }}" alt="{{ post.title }}"/>
+	<span class="title">{{ post.title }}</span>
+</a>

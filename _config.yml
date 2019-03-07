@@ -1,0 +1,12 @@
+# Settings
+title: Pages gilets jaunes
+email: your-email@example.com
+description: "l'annuaire officiel des gilets jaunes"
+baseurl: ""
+url: "https://pagesgiletsjaunes.github.io/"
+github_username:  pagesgiletsjaunes
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+port: 3000

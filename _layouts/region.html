@@ -1,0 +1,56 @@
+{% include head.html %}
+
+{% if page.current %}
+{% assign localisation = page.current %}
+{% else %}
+{% assign localisation = page.region_code %}
+{% endif %}
+
+<div class="row">
+	<div class="col-12  align-center">
+		<h1 class="mb-4 py-3 border-bottom align-middle">Toute la communauté des gilets jaunes{% if page.current %}<br /><small class="text-muted"><a href="{{ page.region_permalink }}">{{  page.region_libelle }}</a></small>{% endif %}<br /><strong>{% if page.current %}{% assign nb = page.current | size %}{% if nb < 2 %}0{%endif%}{{ page.current }} - {{ page.libelle }}{% else %}{{ page.region_libelle }}{% endif %}</strong></h1>
+	</div>
+	<div id="map" class="col-12 col-md-6 offset-md-3">
+		<p class="text-center text-muted font-italic">{% if page.current %}Changer de{% else %}Affiner par{% endif %} départements <span class="fas fa-level-down-alt"></span></p>
+		{% assign partial = page.region_code | append: '.html' %}
+
+		<div id="{{ page.region_code }}" class="regionMap">
+		{% include {{ partial }} %}
+		</div>
+
+		<p class="font-italic text-left small mb-0"><a href="/"><span class="fas fa-long-arrow-alt-left"></span>&nbsp;Retour carte france</a></p>
+		<form class="mt-0">
+			<div class="form-group">
+				<select class="form-control form-control-sm" onchange="javascript:location.href = this.value;">
+					<option>Sélectionner votre département</option>
+					{% for item in site.data.FR[page.region_code].departements %}
+					<option value="{{ item.link }}"{% if page.libelle and item.libelle == page.libelle %} selected="selected"{% endif %}>{{ item.libelle }} - {{ item.code }}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="row links">
+	{% for item in site.data.categories %}
+	<div class="col-md-6 col-12 list-group list-group-flush">
+		<a href="#" class="list-group-item list-group-item-action active disabled"><span class="{{ item.icon }}">&nbsp;{{ item.name }}</span></a>
+		{% for post in site.posts %}
+		{% if post.categories contains item.key and post.tags contains localisation  %}			
+	  		<a href="{{ post.link }}" target="_blank" class="list-group-item list-group-item-action">
+				{% if post.thumbnail %}
+				{% assign thumbnail = post.thumbnail %}
+				{% else %}
+				{% assign thumbnail = "/images/default.jpg" %}
+				{% endif %}
+				<img src="{{ thumbnail }}" alt="{{ post.title }}" />
+				<span class="title">{{ post.title }}</span>
+			</a>
+		{% endif %}
+		{% endfor %}
+	</div>
+	{% endfor %}
+</div>
+
+{% include foot.html %}
