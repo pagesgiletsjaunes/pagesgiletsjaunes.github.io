@@ -2,6 +2,7 @@
 title: "Chinon gilets jaunes"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/330303640855595.jpg
 tags: [FR,FR-CVL,37]

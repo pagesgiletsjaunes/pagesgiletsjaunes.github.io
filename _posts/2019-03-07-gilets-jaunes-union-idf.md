@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Union IDF"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/980651248989329.jpg
 tags: [FR,FR-IDF]

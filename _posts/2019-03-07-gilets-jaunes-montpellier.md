@@ -2,6 +2,7 @@
 title: "Gilets jaunes Montpellier"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/blocagemontpellier34.jpg
 tags: [FR,FR-OCC,34]

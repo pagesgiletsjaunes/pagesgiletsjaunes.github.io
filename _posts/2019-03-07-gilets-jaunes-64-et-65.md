@@ -2,6 +2,7 @@
 title: "GILETS JAUNES 64 ET 65"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/573518666433939.jpg
 tags: [FR,FR-NAQ,64]

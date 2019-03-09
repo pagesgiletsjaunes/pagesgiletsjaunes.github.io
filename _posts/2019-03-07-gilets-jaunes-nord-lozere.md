@@ -2,6 +2,7 @@
 title: "Gilets jaunes Nord Lozère"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/271389790247077.jpg
 tags: [FR,FR-OCC,48]

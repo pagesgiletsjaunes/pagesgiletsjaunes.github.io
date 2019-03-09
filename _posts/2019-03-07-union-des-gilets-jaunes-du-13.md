@@ -2,6 +2,7 @@
 title: "UNION DES GILETS JAUNES DU 13"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/812043738966105.jpg
 tags: [FR,FR-PAC,13]

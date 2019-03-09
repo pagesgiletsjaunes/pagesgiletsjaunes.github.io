@@ -2,6 +2,7 @@
 title: "Actions Gilet Jaune Dans le Finistère"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/1020447088162625.jpg
 tags: [FR,FR-BRE,29]

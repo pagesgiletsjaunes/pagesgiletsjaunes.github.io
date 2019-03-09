@@ -2,6 +2,7 @@
 title: "GILETS JAUNES MARSEILLE SUD"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/GiletsJaunesMarseille.jpg
 tags: [FR,FR-PAC,13]

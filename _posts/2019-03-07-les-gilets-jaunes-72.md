@@ -2,6 +2,7 @@
 title: "Les gilets jaunes 72"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/1918197311550361.jpg
 tags: [FR,FR-PDL,72]

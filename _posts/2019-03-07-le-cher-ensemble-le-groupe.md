@@ -2,6 +2,7 @@
 title: "Le Cher Ensemble \"Le Groupe\""
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/312095936053800.jpg
 tags: [FR,FR-CVL,18]

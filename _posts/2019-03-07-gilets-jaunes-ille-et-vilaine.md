@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Ille Et Vilaine"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/2226469467629321.jpg
 tags: [FR,FR-BRE,35]

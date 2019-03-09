@@ -2,6 +2,7 @@
 title: "Gilets Jaunes 05 & Vallée de la Durance ✊🇫🇷"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/564273283986325.jpg
 tags: [FR,FR-PAC,05]

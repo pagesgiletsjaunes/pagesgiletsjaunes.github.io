@@ -2,6 +2,7 @@
 title: "GILETS JAUNES D'AJACCIO"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/291333868240694.jpg
 tags: [FR,FR-COR]

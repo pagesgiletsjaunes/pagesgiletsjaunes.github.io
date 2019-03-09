@@ -2,6 +2,7 @@
 title: "GILETS JAUNES NIMES GARD"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/551070138691761.jpg
 tags: [FR,FR-OCC,30]

@@ -2,6 +2,7 @@
 title: "Gilets jaunes Dromes/Ardèche pour le RIC"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/496334790878820.jpg
 tags: [FR,FR-ARA,26]

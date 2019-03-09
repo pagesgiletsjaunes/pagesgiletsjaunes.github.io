@@ -2,6 +2,7 @@
 title: "Le vent du changement"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/608550586241160.jpg
 tags: [FR,FR-BFC,70]

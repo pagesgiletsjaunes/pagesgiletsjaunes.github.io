@@ -2,6 +2,7 @@
 title: "Street MEDIC 22"
 type: page
 date:  2019-03-07
+source: facebook
 category: [medics]
 thumbnail: /images/posts/Street-MEDIC-22-563440147471810.jpg
 tags: [FR,FR-BRE,22]

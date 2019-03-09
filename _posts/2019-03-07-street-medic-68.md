@@ -2,6 +2,7 @@
 title: "street Medic 68"
 type: group
 date:  2019-03-07
+source: facebook
 category: [medics]
 thumbnail: /images/posts/375695326497505.jpg
 tags: [FR,FR-GES,68]

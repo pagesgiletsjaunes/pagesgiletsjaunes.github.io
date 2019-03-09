@@ -2,6 +2,7 @@
 title: "Gilets jaune Saint Malo"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/1913509562036445.jpg
 tags: [FR,FR-BRE,35]

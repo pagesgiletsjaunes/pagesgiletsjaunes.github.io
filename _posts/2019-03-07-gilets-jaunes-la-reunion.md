@@ -2,6 +2,7 @@
 title: "Gilets Jaunes - La Réunion"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/GJ.LaReunion.jpg
 tags: [FR,FR-RE,974]

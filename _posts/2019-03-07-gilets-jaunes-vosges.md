@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Vosges"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/2365315336874332.jpg
 tags: [FR,FR-GES,88]

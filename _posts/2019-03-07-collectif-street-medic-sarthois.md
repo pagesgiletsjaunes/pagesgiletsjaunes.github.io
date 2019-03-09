@@ -2,6 +2,7 @@
 title: "Collectif Street Medic Sarthois"
 type: group
 date:  2019-03-07
+source: facebook
 category: [medics]
 thumbnail: /images/posts/1879954458780540.jpg
 tags: [FR,FR-PDL,72]

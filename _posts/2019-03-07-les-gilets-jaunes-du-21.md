@@ -2,6 +2,7 @@
 title: "Les gilets jaunes du 21"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/264731977573278.jpg
 tags: [FR,FR-BFC,21]

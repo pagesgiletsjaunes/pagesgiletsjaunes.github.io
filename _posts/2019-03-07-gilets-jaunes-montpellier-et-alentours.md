@@ -2,6 +2,7 @@
 title: "Gilets jaunes Montpellier Et Alentours"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/GiletsjaunesMontpellierEtAlentours.jpg
 tags: [FR,FR-OCC,34]

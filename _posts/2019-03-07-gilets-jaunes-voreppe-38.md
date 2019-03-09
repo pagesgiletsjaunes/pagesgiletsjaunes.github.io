@@ -2,6 +2,7 @@
 title: "#Gilets jaunes Voreppe (38)"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/764037517264077.jpg
 tags: [FR,FR-ARA,38]

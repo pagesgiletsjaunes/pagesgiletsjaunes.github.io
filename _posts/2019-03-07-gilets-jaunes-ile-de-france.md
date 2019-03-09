@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Ile-de-France"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/1746512808792708.jpg
 tags: [FR,FR-IDF]

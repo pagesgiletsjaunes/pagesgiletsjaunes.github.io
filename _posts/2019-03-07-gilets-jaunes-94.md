@@ -2,6 +2,7 @@
 title: "Gilets Jaunes - 94"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/GiletsJaunes94.jpg
 tags: [FR,FR-IDF,94]

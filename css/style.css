@@ -51,6 +51,7 @@ fill: #fff200;
 h1 {
 font-size: 1.75rem;
 text-align: center;
+border-bottom: 1px solid #ffe21a;
 }
 .copyleft {
 display:inline-block;
@@ -58,9 +59,6 @@ transform: rotate(180deg);
 }
 .border-top {
 border-top: 1px solid #6c757d !important;
-}
-.border-bottom {
-border-bottom: 1px solid #ffe21a !important;
 }
 .list-group-item.active {
 background-color: transparent;
@@ -195,3 +193,21 @@ header .nav-item img {
     font-weight: 900;
 }
 
+a.media {
+	color: #212529;
+}
+a.media:hover {
+	text-decoration: none;
+	background-color: #ffe21a;
+}
+
+.btn-primary:hover {
+	background-color: #fff200;
+	border-color: #fff200;
+	color: #495057;
+}
+.btn-primary {
+	background-color: #ffe21a;
+	border-color: #ffe21a;
+	color: #495057;
+}

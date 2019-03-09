@@ -2,6 +2,7 @@
 title: "Gilets jaunes Angoulême 16"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/504319383381235.jpg
 tags: [FR,FR-NAQ,16]

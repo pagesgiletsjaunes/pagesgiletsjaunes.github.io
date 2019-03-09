@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Haut Rhin (68)"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/2336186013306490.jpg
 tags: [FR,FR-GES,68]

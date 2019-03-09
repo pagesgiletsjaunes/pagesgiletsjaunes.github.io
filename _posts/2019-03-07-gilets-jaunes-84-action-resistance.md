@@ -2,6 +2,7 @@
 title: "GILETS JAUNES 84 ACTION & RÉSISTANCE"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/554332924987623.jpg
 tags: [FR,FR-PAC,84]

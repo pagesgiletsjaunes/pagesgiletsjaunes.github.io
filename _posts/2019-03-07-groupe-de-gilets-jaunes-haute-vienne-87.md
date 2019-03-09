@@ -2,6 +2,7 @@
 title: "Groupe de Gilets Jaunes Haute Vienne 87"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/217123792527313.jpg
 tags: [FR,FR-NAQ,87]

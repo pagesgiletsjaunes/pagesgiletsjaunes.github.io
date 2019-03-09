@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Bordeaux"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/292615428033801.jpg
 tags: [FR,FR-NAQ,33]

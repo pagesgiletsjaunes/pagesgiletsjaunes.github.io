@@ -3,25 +3,31 @@ layout: default
 title: Pages gilets jaunes
 description: l'annuaire officiel des gilets jaunes
 ---
-<h1 class="mb-4 py-3 border-bottom">L'annuaire officiel des Gilets Jaunes</h1>
-	<div class="row">
+<h1 class="mb-4 py-3">L'annuaire officiel des Gilets Jaunes</h1>
+
+<p class="text-justify mb-2">L'objectif de ce site est de référencer un maximum de lien vers les différentes voies de communication (principalement des réseaux sociaux tels que Facebook, Twitter, Youtube...) des organisations participantes et/ou sympathisantes du mouvement social des gilets jaunes apparu en France en octobre 2018</p>
+<p class="text-justify  mb-2">Retrouvez toutes les informations et l'historique de ce mouvement sur la page Wikipédia dédiée : <a href="https://fr.wikipedia.org/wiki/Mouvement_des_Gilets_jaunes_(France)">Mouvement des Gilets jaunes (France)</a></p>
+<p class="text-justify  mb-0">Ce site tente de référencer la diversité de ces organisations (communautés géographiques, médicales, évenements / actions, femmes, motard-e-s, retraité-e-s, handicapé-e-s,...) à travers leurs répartitions géographiques.</p>
+
+<p class="mb-4 border-bottom">&nbsp;</p>
+
+<div class="row">
+
 	<div class="col-md-6 col-12 order-md-1 order-2">
-		
-
-	<div class="row text-center categories">
-		<p>Retrouvez les différentes communautés de France participantes et soutenant le mouvement social des gilets jaunes</p>
-		{% for item in site.data.categories %}
-		<a class="col-md-6 col-12 pt-3" href="#">
-        	<i class="{{ item.icon }}"></i>
-        	<h2 class="py-2 my-0">{{ item.name }}</h2>
-        	<p>{{ item.description }}</p>
-      	</a>
-		{% endfor %}
-    </div>
-
+		<p class="text-left">Retrouvez les différentes communautés de France et/ou sympathisantes du mouvement des gilets jaunes</p>
+		<div class="row text-center categories">
+			{% for item in site.data.categories %}
+			<a class="col-md-6 col-12 pt-3" href="{{ item.permalink }}">
+		    	<i class="{{ item.icon }}"></i>
+		    	<h2 class="py-2 my-0">{{ item.name }}</h2>
+		    	<p>{{ item.description }}</p>
+		  	</a>
+			{% endfor %}
+		</div>
 	</div>
+
 	<div id="map" class="col-md-6 col-12  order-md-2 order-1">
-		<p>Cliquez sur une région de la carte pour retrouver les communautés gilets jaunes proches de chez vous</p>
+		<p class="text-right">Cliquez sur une région de la carte pour retrouver les communautés gilets jaunes proches de chez vous</p>
 		<p class="text-center text-muted font-italic">Sélectionner votre région <span class="fas fa-level-down-alt"></span></p>
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 620 600" preserveAspectRatio="xMinYMin meet">
 			<g id="metropole">

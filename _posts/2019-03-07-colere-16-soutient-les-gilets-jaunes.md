@@ -2,6 +2,7 @@
 title: "Colère 16 Soutient Les Gilets Jaunes!!!"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/579469809054553.jpg
 tags: [FR,FR-NAQ,16]

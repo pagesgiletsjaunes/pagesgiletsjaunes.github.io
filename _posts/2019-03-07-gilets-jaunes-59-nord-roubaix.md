@@ -2,6 +2,7 @@
 title: "GILETS JAUNES 59 NORD ROUBAIX"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/2191572877721317.jpg
 tags: [FR,FR-HDF,59]

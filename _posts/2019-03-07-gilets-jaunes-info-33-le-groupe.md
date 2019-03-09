@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Info 33 - Le groupe"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/GiletsJaunesInfo33.jpg
 tags: [FR,FR-NAQ,33]

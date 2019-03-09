@@ -2,6 +2,7 @@
 title: "Gilets jaunes 974 tous unis✊"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/508163326350876.jpg
 tags: [FR,FR-RE,974]

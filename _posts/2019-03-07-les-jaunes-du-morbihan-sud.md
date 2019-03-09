@@ -2,6 +2,7 @@
 title: "Les jaunes du Morbihan sud"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/399169357317860.jpg
 tags: [FR,FR-BRE,56]

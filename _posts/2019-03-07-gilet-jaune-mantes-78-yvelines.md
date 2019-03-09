@@ -2,6 +2,7 @@
 title: "Gilet Jaune Mantes 78 Yvelines"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/1962315870548360.jpg
 tags: [FR,FR-IDF,78]

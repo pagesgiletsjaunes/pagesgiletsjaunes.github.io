@@ -2,6 +2,7 @@
 title: "Les Gilets Jaunes du 79 - Deux-Sèvres"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/318796732056984.jpg
 tags: [FR,FR-NAQ,79]

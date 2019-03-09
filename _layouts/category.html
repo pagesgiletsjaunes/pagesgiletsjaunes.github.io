@@ -1,0 +1,39 @@
+{% include head.html %}
+{% assign cat = '' %}
+{% for item in site.data.categories %}
+	{% if item.key == page.category %}
+		{% assign cat = item %}
+	{% endif %}
+{% endfor %}
+<div class="row">
+	<div class="col-12">
+		<h1 class="mb-4 py-3"><i class="{{ cat.icon }}"></i>&nbsp;<strong>{{ cat.name }}</strong><br /><small class="text-muted">France</small></h1>
+	</div>
+</div>
+
+{% assign count = 0 %}
+{% for post in site.posts %}
+{% if post.categories contains page.category  %}
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% endfor %}
+
+{% if count > 0 %}
+<div class="my-3 p-3 bg-white rounded shadow-sm">
+    <h6 class="border-bottom border-gray pb-2 mb-0"><span class="fas fa-link">&nbsp;Liens référencés</span><span class="text-muted px-2">({{ count }})</span></h6>
+	{% for post in site.posts %}
+	{% if post.categories contains page.category  %}
+    <a class="media py-2 pt-3" href="{{ post.link }}" target="_blank">
+		<img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="mr-3 rounded" width="60" height="60" />
+      	<p class="media-body pb-4 mb-0 small lh-125 border-bottom border-gray">
+        	<strong class="d-block pb-1">{{ post.title }}</strong>
+			<span class="text-muted fab fa-{{ post.source }}-square">&nbsp;{{ post.type }}</span>
+      	</p>
+    </a>
+	{% endif %}
+	{% endfor %}
+</div>
+{% endif %}
+
+
+{% include foot.html %}

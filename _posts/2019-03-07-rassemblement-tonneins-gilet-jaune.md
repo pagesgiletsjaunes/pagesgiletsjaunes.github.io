@@ -2,6 +2,7 @@
 title: "rassemblement Tonneins Gilet jaune"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/490848991439826.jpg
 tags: [FR,FR-NAQ,47]

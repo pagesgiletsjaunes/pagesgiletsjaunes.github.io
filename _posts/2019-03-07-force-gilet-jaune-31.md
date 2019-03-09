@@ -2,6 +2,7 @@
 title: "Force gilet jaune 31"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/1628534990585995.jpg
 tags: [FR,FR-OCC,31]

@@ -2,6 +2,7 @@
 title: "GILET JAUNE A REIMS"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/254096345268968.jpg
 tags: [FR,FR-GES,51]

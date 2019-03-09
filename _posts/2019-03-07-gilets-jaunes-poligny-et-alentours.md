@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Poligny et Alentours"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/524838684657479.jpg
 tags: [FR,FR-BFC,39]

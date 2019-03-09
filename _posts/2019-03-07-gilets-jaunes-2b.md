@@ -2,6 +2,7 @@
 title: "Gilets Jaunes 2B"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/1973303739641329.jpg
 tags: [FR,FR-COR]

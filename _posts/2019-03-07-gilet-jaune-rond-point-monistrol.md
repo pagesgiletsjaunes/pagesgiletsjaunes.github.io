@@ -2,6 +2,7 @@
 title: "gilet jaune  rond point monistrol"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/421009485100849.jpg
 tags: [FR,FR-ARA,42]

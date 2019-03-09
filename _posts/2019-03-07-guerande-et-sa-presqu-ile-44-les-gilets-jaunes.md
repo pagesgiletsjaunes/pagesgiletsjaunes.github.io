@@ -2,6 +2,7 @@
 title: "Guérande et Sa Presqu'ile 44 \"Les Gilets jaunes\" !"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/558318291275336.jpg
 tags: [FR,FR-PDL,44]

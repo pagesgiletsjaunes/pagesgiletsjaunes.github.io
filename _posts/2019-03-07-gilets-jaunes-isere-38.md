@@ -2,6 +2,7 @@
 title: "Gilets Jaunes Isere (38)"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/326928291228788.jpg
 tags: [FR,FR-ARA,38]

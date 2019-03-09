@@ -2,6 +2,7 @@
 title: "Gilets Jaunes 06 Actions"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/1953414474727715.jpg
 tags: [FR,FR-PAC,06]

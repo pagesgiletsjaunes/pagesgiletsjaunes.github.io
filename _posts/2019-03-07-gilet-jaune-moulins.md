@@ -2,6 +2,7 @@
 title: "gilet jaune moulins"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/2084109008320053.jpg
 tags: [FR,FR-ARA,03]

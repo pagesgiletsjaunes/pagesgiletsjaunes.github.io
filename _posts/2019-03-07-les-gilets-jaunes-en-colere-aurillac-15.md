@@ -2,6 +2,7 @@
 title: "Les Gilets Jaunes en colère Aurillac 15"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/295031801116157.jpg
 tags: [FR,FR-ARA,15]

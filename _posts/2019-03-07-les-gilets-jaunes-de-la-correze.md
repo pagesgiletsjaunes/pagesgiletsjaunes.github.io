@@ -2,6 +2,7 @@
 title: "Les gilets jaunes de la Corrèze"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/923755027814449.jpg
 tags: [FR,FR-NAQ,19]

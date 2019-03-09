@@ -7,50 +7,71 @@
 {% endif %}
 
 <div class="row">
-	<div class="col-12  align-center">
-		<h1 class="mb-4 py-3 border-bottom align-middle">Toute la communauté des gilets jaunes{% if page.current %}<br /><small class="text-muted"><a href="{{ page.region_permalink }}">{{  page.region_libelle }}</a></small>{% endif %}<br /><strong>{% if page.current %}{% assign nb = page.current | size %}{% if nb < 2 %}0{%endif%}{{ page.current }} - {{ page.libelle }}{% else %}{{ page.region_libelle }}{% endif %}</strong></h1>
+	<div class="col-12 col-md-6">
+		<h1 class="mb-5 mt-4 py-3">Toute la communauté des gilets jaunes{% if page.current %}<br /><small class="text-muted">{{  page.region_libelle }}</small>{% endif %}<br /><strong>{% if page.current %}{% assign nb = page.current | size %}{% if nb < 2 %}0{%endif%}{{ page.current }} - {{ page.libelle }}{% else %}{{ page.region_libelle }}{% endif %}</strong></h1>
+		<div class="row my-3">		
+			<div class="col-6 text-left">
+				<a class="btn btn-primary" href="/" role="button"><span class="fas fa-caret-left"></span>&nbsp;Carte de France</a>
+			</div>
+			<div class="col-6 text-right">
+				<form class="mt-0">
+					<div class="form-group mb-0">
+						<select class="form-control form-control" onchange="javascript:location.href = this.value;">
+							<option>{% if page.current %}Changer de{% else %}Affiner par{% endif %} départements</option>
+							{% for item in site.data.FR[page.region_code].departements %}
+							<option value="{{ item.link }}"{% if page.libelle and item.libelle == page.libelle %} selected="selected"{% endif %}>{{ item.libelle }} - {{ item.code }}</option>
+							{% endfor %}
+						</select>
+					</div>
+				</form>
+				{% if page.current %}
+				<p class="text-right small mb-0"><a href="{{ page.region_permalink }}"><span class="fas fa-caret-left"></span>&nbsp;{{  page.region_libelle }}</a></p>
+				{% endif %}
+			</div>
+		</div>
 	</div>
-	<div id="map" class="col-12 col-md-6 offset-md-3">
-		<p class="text-center text-muted font-italic">{% if page.current %}Changer de{% else %}Affiner par{% endif %} départements <span class="fas fa-level-down-alt"></span></p>
+	<div id="map" class="col-12 col-md-6">		
 		{% assign partial = page.region_code | append: '.html' %}
-
 		<div id="{{ page.region_code }}" class="regionMap">
 		{% include {{ partial }} %}
 		</div>
-
-		<p class="font-italic text-left small mb-0"><a href="/"><span class="fas fa-long-arrow-alt-left"></span>&nbsp;Retour carte france</a></p>
-		<form class="mt-0">
-			<div class="form-group">
-				<select class="form-control form-control-sm" onchange="javascript:location.href = this.value;">
-					<option>Sélectionner votre département</option>
-					{% for item in site.data.FR[page.region_code].departements %}
-					<option value="{{ item.link }}"{% if page.libelle and item.libelle == page.libelle %} selected="selected"{% endif %}>{{ item.libelle }} - {{ item.code }}</option>
-					{% endfor %}
-				</select>
-			</div>
-		</form>
 	</div>
 </div>
+{% assign more = '' %}
+{% for item in site.data.categories %}
 
-<div class="row links">
-	{% for item in site.data.categories %}
-	<div class="col-md-6 col-12 list-group list-group-flush">
-		<a href="#" class="list-group-item list-group-item-action active disabled"><span class="{{ item.icon }}">&nbsp;{{ item.name }}</span></a>
-		{% for post in site.posts %}
-		{% if post.categories contains item.key and post.tags contains localisation  %}			
-	  		<a href="{{ post.link }}" target="_blank" class="list-group-item list-group-item-action">
-				{% if post.thumbnail %}
-				{% assign thumbnail = post.thumbnail %}
-				{% else %}
-				{% assign thumbnail = "/images/default.jpg" %}
-				{% endif %}
-				<img src="{{ thumbnail }}" alt="{{ post.title }}" />
-				<span class="title">{{ post.title }}</span>
-			</a>
-		{% endif %}
-		{% endfor %}
-	</div>
+{% assign count = 0 %}
+{% for post in site.posts %}
+{% if post.categories contains item.key and post.tags contains localisation  %}
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% endfor %}
+
+{% if count > 0 %}
+<div class="my-3 p-3 bg-white rounded shadow-sm">
+    <h6 class="border-bottom border-gray pb-2 mb-0"><span class="{{ item.icon }}">&nbsp;{{ item.name }}</span><span class="text-muted px-2">({{ count }})</span></h6>
+	{% for post in site.posts %}
+	{% if post.categories contains item.key and post.tags contains localisation  %}
+    <a class="media py-2 pt-3" href="{{ post.link }}" target="_blank">
+		<img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="mr-3 rounded" width="60" height="60" />
+      	<p class="media-body pb-4 mb-0 small lh-125 border-bottom border-gray">
+        	<strong class="d-block pb-1">{{ post.title }}</strong>
+			<span class="text-muted fab fa-{{ post.source }}-square">&nbsp;{{ post.type }}</span>
+      	</p>
+    </a>
+	{% endif %}
 	{% endfor %}
+    <small class="d-block text-right mt-2">
+      <a href="{{ item.permalink }}"><i class="fas fa-plus-circle"></i>&nbsp;{{ item.name }} France</a>
+    </small>
+</div>
+{% else %}
+{% assign more = more | append: '<a href="' | append: item.permalink | append: '" class="px-2">' | append: item.name | append: ' France</a> <i class="small fas fa-genderless"></i>' %}
+{% endif %}
+{% endfor %}
+
+<div class="more small text-center">
+{{ more }}
 </div>
 
 {% include foot.html %}

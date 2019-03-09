@@ -2,6 +2,7 @@
 title: "Les Gilets jaunes du Haut-Rhin"
 type: group
 date:  2019-03-07
+source: facebook
 category: [gj]
 thumbnail: /images/posts/461439277716766.jpg
 tags: [FR,FR-GES,68]

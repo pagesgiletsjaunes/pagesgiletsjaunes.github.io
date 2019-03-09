@@ -2,6 +2,7 @@
 title: "Street Medics La Ciotat (Communication)"
 type: group
 date:  2019-03-07
+source: facebook
 category: [medics]
 thumbnail: /images/posts/231743731064282.jpg
 tags: [FR,FR-PAC,13]
