@@ -24,7 +24,7 @@
 	{% for post in site.posts %}
 	{% if post.categories contains page.category  %}
     <a class="media py-2 pt-3" href="{{ post.link }}" target="_blank">
-		<img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="mr-3 rounded" width="60" height="60" />
+		<img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="mr-3 rounded" />
       	<p class="media-body pb-4 mb-0 small lh-125 border-bottom border-gray">
         	<strong class="d-block pb-1">{{ post.title }}</strong>
 			<span class="text-muted fab fa-{{ post.source }}-square">&nbsp;{{ post.type }}</span>

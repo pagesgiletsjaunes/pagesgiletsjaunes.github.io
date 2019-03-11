@@ -1,3 +1,9 @@
+- key: events
+  name: Les Evénements
+  description: Les programmes et opérations coup-de-poing des gilets jaunes
+  icon: far fa-calendar-alt
+  permalink: '/evenements/'
+
 - key: gj
   name: Les Gilets Jaunes
   description: La communauté des gilets jaunes
@@ -10,35 +16,17 @@
   icon: far fa-dot-circle
   permalink: '/ronds-points/'
 
-- key: events
-  name: Les Evénements
-  description: Les programmes et opérations coup-de-poing des gilets jaunes
-  icon: far fa-calendar-alt
-  permalink: '/evenements/'
-
-- key: medics
-  name: Les Street Medics
-  description: Les volontaires soignants les gilets jaunes bléssés lors de manifestation
-  icon: fas fa-user-md
-  permalink: '/street-medics/'
-
 - key: bikers
   name: Les Motard-e-s
   description: La communauté des motard-e-s gilets jaunes
   icon: fas fa-motorcycle
   permalink: '/motard-e-s/'
 
-- key: women
-  name: Les Femmes
-  description: La communauté des femmes gilets jaunes
-  icon: fas fa-female
-  permalink: '/femmes/'
-
-- key: lawyers
-  name: Les Avocat-e-s
-  description: La communauté des robes noires et gilets jaunes
-  icon: fas fa-university
-  permalink: '/avocat-e-s/'
+- key: retired
+  name: Les Retraité-e-s
+  description: La communauté des retraité-e-s gilets jaunes
+  icon: fas fa-blind
+  permalink: '/retraite-e-s/'
 
 - key: hurted
   name: Les Blessé-e-s
@@ -46,14 +34,26 @@
   icon: fas fa-notes-medical
   permalink: '/blesse-e-s/'
 
+- key: women
+  name: Les Femmes
+  description: La communauté des femmes gilets jaunes
+  icon: fas fa-female
+  permalink: '/femmes/'
+
 - key: handicapped
   name: Les Handicapé-e-s
   description: La communauté des handicapé-e-s gilets jaunes
   icon: fas fa-wheelchair
   permalink: '/handicape-e-s/'
 
-- key: retired
-  name: Les Retraité-e-s
-  description: La communauté des retraité-e-s gilets jaunes
-  icon: fas fa-blind
-  permalink: '/retraite-e-s/'
+- key: medics
+  name: Les Street Medics
+  description: Les volontaires soignants les gilets jaunes bléssés lors de manifestation
+  icon: fas fa-user-md
+  permalink: '/street-medics/'
+
+- key: lawyers
+  name: Les Avocat-e-s
+  description: La communauté des robes noires et gilets jaunes
+  icon: fas fa-university
+  permalink: '/avocat-e-s/'

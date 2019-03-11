@@ -29,9 +29,9 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item text-center">
+						<!-- <li class="nav-item text-center">
 					  		<a class="nav-link{% if page.current_link and page.current_link == "compteur" %} active{% endif %}" href="/compteur-officiel-de-gilets-jaunes/">Le compteur officiel</a>
-						</li>
+						</li> -->
 						<li class="nav-item text-center">
 					  		<a class="nav-link{% if page.current_link and page.current_link == "figures" %} active{% endif %}" href="/les-figures-du-mouvement/">Les figures du mouvement</a>
 						</li>
@@ -39,7 +39,7 @@
 					  		<a class="nav-link{% if page.current_link and page.current_link == "informations" %} active{% endif %}" href="/informations-nationales/">Informations Nationales</a>
 						</li>
 						<li class="nav-item text-center ml-3">
-					  		<a type="button" class="btn btn-warning btn-sm" href="#">Etre Référencer</a>
+					  		<a type="button" class="btn btn-warning btn-sm{% if page.current_link and page.current_link == "etrereference" %} active{% endif %}" href="/etre-reference/">Etre Référencé</a>
 						</li>
 				  	</ul>
 				</div>
