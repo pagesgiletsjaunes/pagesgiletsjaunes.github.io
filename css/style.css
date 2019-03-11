@@ -195,6 +195,7 @@ header .nav-item img {
 
 a.media {
 	color: #212529;
+	font-weight: normal;
 }
 a.media:hover {
 	text-decoration: none;
@@ -210,4 +211,27 @@ a.media:hover {
 	background-color: #ffe21a;
 	border-color: #ffe21a;
 	color: #495057;
+}
+a.media h2 {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.card-body {
+    width: 100%;
+}
+a.media img {
+	object-fit: cover;
+	width: 60px;
+	height: 60px;
+}
+a.card img {
+	object-fit: cover;
+	width: 100%; 
+	height: 225px;
+}
+a.figure img {
+	object-fit: cover;
+	width: 140px; 
+	height: 140px;
 }
