@@ -224,6 +224,13 @@ a.media img {
 	width: 60px;
 	height: 60px;
 }
+a.media svg {
+	width: 60px !important;
+	height: 60px !important;
+}
+a.media svg path {
+	fill: #4267b2;
+}
 a.card img {
 	object-fit: cover;
 	width: 100%; 

@@ -52,6 +52,12 @@
   icon: fas fa-user-md
   permalink: '/street-medics/'
 
+- key: aid
+  name: Entraide
+  description: Toute l'entraide des gilets jaunes, covoiturage, hébergement...
+  icon: fas fa-hands-helping
+  permalink: '/entraide/'
+
 - key: lawyers
   name: Les Avocat-e-s
   description: La communauté des robes noires et gilets jaunes
