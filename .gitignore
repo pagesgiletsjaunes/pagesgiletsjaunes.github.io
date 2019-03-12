@@ -3,3 +3,7 @@ _site
 .jekyll-metadata
 Gemfile.lock
 bin
+_data/new.csv
+import.sh
+save_page.js
+scrape.php
