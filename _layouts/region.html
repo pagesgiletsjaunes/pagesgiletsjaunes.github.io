@@ -50,7 +50,9 @@
 {% if count > 0 %}
 <div class="my-3 p-3 bg-white rounded shadow-sm">
     <h6 class="border-bottom border-gray pb-2 mb-0"><span class="{{ item.icon }}">&nbsp;{{ item.name }}</span><span class="text-muted px-2">({{ count }})</span></h6>
-	{% for post in site.posts %}
+	{% assign post = site.posts | sort: 'event' %}
+	{% assign sorted = post | reverse %}	
+	{% for post in sorted %}
 	{% if post.categories contains item.key and post.tags contains localisation  %}
     <a class="media py-2 pt-3" href="{{ post.link }}" target="_blank">
 		{% if post.type == 'event' %}

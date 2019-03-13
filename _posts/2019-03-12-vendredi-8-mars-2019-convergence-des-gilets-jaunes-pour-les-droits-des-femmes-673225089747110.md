@@ -2,6 +2,7 @@
 title: "Vendredi 8 mars 2019 - Convergence des Gilets Jaunes pour les Droits des Femmes !"
 type: event
 date:  2019-03-12
+event:  2019-03-08
 source: facebook
 category: [events]
 thumbnail: /images/posts/default.jpg
