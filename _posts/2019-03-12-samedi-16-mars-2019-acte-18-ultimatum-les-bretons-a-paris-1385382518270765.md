@@ -6,6 +6,6 @@ event:  2019-03-16
 source: facebook
 category: [events]
 thumbnail: /images/posts/default.jpg
-tags: [FR,FR-BRE]
+tags: [FR,FR-BRE,22,29,35,56]
 link: https://www.facebook.com/events/1385382518270765/
 ---

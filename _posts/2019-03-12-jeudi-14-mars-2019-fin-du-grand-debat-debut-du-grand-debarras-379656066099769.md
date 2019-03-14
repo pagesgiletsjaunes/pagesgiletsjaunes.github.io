@@ -6,6 +6,6 @@ event:  2019-03-14
 source: facebook
 category: [events]
 thumbnail: /images/posts/default.jpg
-tags: [FR,FR-CVL]
+tags: [FR,FR-CVL,18,28,36,37,41,45]
 link: https://www.facebook.com/events/379656066099769/
 ---
